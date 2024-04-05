@@ -23,6 +23,8 @@ const config: Config = {
         'secondary': '#EAD7BB',
         'background': '#e1eaed',
         'box': '#d5dfe6',
+        'icon': '#c3cdd4',
+        'box-hover': '#d3e2ed',
       },
     },
   },

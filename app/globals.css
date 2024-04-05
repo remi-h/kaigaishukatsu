@@ -8,6 +8,9 @@
   --secondary-color: #EAD7BB;
   --background-color: #e1eaed;
   --box-color: #d5dfe6;
+  --box-icon: #c3cdd4;
+  --box-hover-color: #d3e2ed;
+  --line-color: #113946;
 }
 
 body {
@@ -35,7 +38,10 @@ h2{
   font-size: 1.4rem;
   font-weight: bold;
 }
-
+h3{
+  font-size: 1.3rem;
+  font-weight: bold
+}
 .box{
   background-color: var(--box-color);
   border-radius: 10px;
