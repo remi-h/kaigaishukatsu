@@ -20,7 +20,7 @@ const ListItems = [
 ];
 
 const CVChecklist = () => (
-    <div id="list" className='grid grid-cols-3 auto-cols-fr gap-1 text-lg'>
+    <div className='grid grid-cols-3 auto-cols-fr gap-1 text-lg'>
         {ListItems.map((item: { id: string, label: string }, index: number) => (
             <label key={index} htmlFor={item.id} className="flex gap-2 bg-box p-4 inline-flex hover:bg-icon">
                 <Checkbox.Root
