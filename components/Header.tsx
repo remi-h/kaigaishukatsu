@@ -9,7 +9,7 @@ export default function Header() {
                     <Link href="/" className='text-xl'>海外就活</Link>
                     <div className='flex gap-4'>
                         <Link href="/roadmap">Road Map</Link>
-                        <Link href="/cvaudit">CV Audit</Link>
+                        <Link href="/cvchecker">CV Checker</Link>
                         <Link href="/community">Community</Link>
                     </div>
                 </div>

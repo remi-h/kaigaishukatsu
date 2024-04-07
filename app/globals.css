@@ -13,6 +13,10 @@
   --line-color: #113946;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--primary-color);
   background-color: var(--background-color);
@@ -49,4 +53,34 @@ h3{
 }
 svg{
   display: inline-block;
+}
+.scroll-button {
+  border: 1px solid var(--accent-color);
+  display: inline-block;
+  padding: 4px 24px;
+  border-radius: 30px;
+}
+.scroll-button:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  transition: .3s;
+}
+
+/* FORM */
+form input{
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 400px;
+}
+form label{
+  font-weight: 500;
+}
+form textarea{
+  padding: 10px;
+  border-radius: 6px;
+}
+form select{
+  padding: 10px;
+  border-radius: 6px;
+  max-width: 400px;
 }
