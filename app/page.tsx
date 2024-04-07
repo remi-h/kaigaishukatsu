@@ -23,7 +23,7 @@ export default function Home() {
         ))}
       </div>
       <div className="relative h-96">
-        <Image src="/stockholm.jpeg" alt="Stockholm" fill objectFit="cover" />
+        <Image src="/stockholm.jpeg" alt="Stockholm" fill className='object-cover'  />
       </div>
       <div className="flex flex-col gap-3">
         <div>

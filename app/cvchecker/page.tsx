@@ -28,10 +28,10 @@ export default function CVChecker() {
                 </p>
                 <div className='flex'>
                     <div className='relative h-96 flex-1'>
-                        <Image src="/flow.png" alt="CV Audit" fill objectFit='contain' />
+                        <Image src="/flow.png" alt="CV Audit" fill className='object-contain' />
                     </div>
                     <div className='relative h-96 flex-1'>
-                        <Image src="/cvcl.png" alt="CV Audit" fill objectFit='contain' />
+                        <Image src="/cvcl.png" alt="CV Audit" fill className='object-contain' />
                     </div>
                 </div>
             </div>

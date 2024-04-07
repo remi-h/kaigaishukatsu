@@ -2,8 +2,11 @@
 import * as RadioGroup from '@radix-ui/react-radio-group';
 
 const FormAudit = () => {
+
     return (
-        <form name="cv-audit" method="POST" data-netlify="true" className='grid box gap-4'>
+        <form name="form-audit" method="POST" data-netlify="true" className='grid box gap-4' action="/cvchecker/success">
+            <input type="hidden" name="form-audit" value="contact" />
+
             <h3>添削サービス申込</h3>
             <span className='grid'>
                 <label htmlFor="name">お名前（ニックネーム可）</label>
