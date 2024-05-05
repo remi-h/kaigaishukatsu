@@ -46,9 +46,9 @@ export default function Home() {
           <Link href="/roadmap">
             <IconBox icon="🚀" title="Road Map" description="中高・大学生のうちから海外での就活を見据えている場合のロードマップ" />
           </Link>
-          <Link href="/cvaudit">
+          {/* <Link href="/cvaudit">
             <IconBox icon="📝" title="CV Checker" description="CV・レジュメの書き方やポイントをチェックリストで紹介します。添削も承ります。" />
-          </Link>
+          </Link> */}
           <Link href="/community">
             <IconBox icon="🌐" title="Community" description="海外就活に関する情報交換や質問を行うコミュニティ" />
           </Link>

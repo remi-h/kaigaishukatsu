@@ -46,6 +46,7 @@ export default function Home() {
   return (
     <main>
       <h1>ROAD MAP</h1>
+      <p>更新までしばらくお待ちください</p>
       <p className="text-xl mb-8">新卒で海外での就職を目指す場合のロードマップ</p>
       <RoadTabs />
     </main>
